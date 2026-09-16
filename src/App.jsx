@@ -1,11 +1,10 @@
-import Header from "./static/Header";
+import Header  from "./static/Header";
 
 const App = () => {
-  return (
+ return (
     <div>
-      <Header />
+      <Header/>
     </div>
-  );
-};
-
-export default App;
+ )
+}
+ 

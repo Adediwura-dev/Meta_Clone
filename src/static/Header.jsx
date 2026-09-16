@@ -1,4 +1,4 @@
-import { FaRegUser } from "react-icons/fa";
+import { Handbag, UserRound } from "lucide-react";
 
 const Header = () => {
   return (
@@ -12,6 +12,9 @@ const Header = () => {
           <nav>AI glasses</nav>
           <nav>Meta Quest</nav>
           <nav>Apps and games</nav>
+          <nav>Learn more</nav>
+          <nav>Apps and games</nav>
+          <nav>Apps and games</nav>
         </main>
       </section>
 
@@ -20,10 +23,10 @@ const Header = () => {
         <nav>Support</nav>
         <main>
             <div>
-                <BsHandbag/>
+                <Handbag />
             </div>
           <div>
-            <FaRegUser />
+            <UserRound />
           </div>
         </main>
       </section>
