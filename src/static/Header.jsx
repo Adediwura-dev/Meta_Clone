@@ -12,7 +12,7 @@ const Header = () => {
 
   return (
     <div>
-      <header className="flex justify-between px-44 py-8 max-md:px-14">
+      <header className="sticky top-0 bg-white z-50 flex justify-between px-44 py-8 max-md:px-14">
         <section className="flex gap-10">
           <main className="flex  items-center">
             <div className="flex text-blue-500">
