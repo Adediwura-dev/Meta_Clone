@@ -1,4 +1,7 @@
 import firstVideo from "../../../assets/metavideo.mp4";
+import secondVideo from "../../../assets/meta2.mp4";
+import thirdVideo from "../../../assets/meta3.mp4";
+import fourthVideo from "../../../assets/meta4.mp4";
 import fullpageModule from "@fullpage/react-fullpage";
 const ReactFullpage = fullpageModule.default ?? fullpageModule;
 
@@ -15,8 +18,12 @@ const Hero = () => {
             <div className="bg-amber-500 h-screen relative">
               <div className="flex items-center justify-center h-full w-full absolute">
                 <div className=" flex items-center justify-center h-full w-full absolute flex-col gap-4">
-                  <h1 className="text-white mx-10 font-medium text-4xl">We're building the future of human connection.</h1>
-                  <button className="px-5 py-3 rounded-full text-white bg-blue-600 ">AI at Meta</button>
+                  <h1 className="text-white mx-10 font-medium text-4xl">
+                    We're building the future of human connection.
+                  </h1>
+                  <button className="px-5 py-3 rounded-full text-white bg-blue-600 ">
+                    AI at Meta
+                  </button>
                 </div>
                 <video
                   className="w-full"
@@ -28,12 +35,23 @@ const Hero = () => {
             </div>
           </div>
           <div className="section">
-            <div className="bg-green-500 h-screen"></div>
+            <div className="bg-green-500 h-screen">
+              <video className="w-full" autoPlay loop src={secondVideo}></video>
+            </div>
           </div>
           <div className="section">
-            <div className="bg-blue-500 h-screen"></div>
+            <div className="bg-blue-500 h-screen">
+              <video className="w-full" autoPlay loop src={thirdVideo}></video>
+            </div>
+          </div>
+          <div className="section">
+            <div className="bg-amber-900 h-screen">
+              <video className="w-full" autoPlay loop src={fourthVideo}></video>
+            </div>
           </div>
         </ReactFullpage.Wrapper>
+
+
       )}
     />
   );
